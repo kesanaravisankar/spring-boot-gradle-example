@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @RequestMapping(value = "hello")
     public String hello(){
-        System.out.println("Printing dummy message to console");
+        System.out.println("Hello");
         return "Spring boot Gradle Example";
     }
 }
