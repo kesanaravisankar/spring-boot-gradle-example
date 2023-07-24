@@ -1,3 +1,4 @@
 # Add 'repo' label to any root file changes
-repo:
-  - '*'
+Java-Code-Change:
+  - src/design/**/*
+  - src/styles/**/*
